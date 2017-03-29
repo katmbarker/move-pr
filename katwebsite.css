@@ -1,0 +1,334 @@
+body {
+  margin:0;
+  background-color: white;
+  font-family: sans-serif;
+  width:100%;
+  height: 100%;
+}
+
+.navbar {
+  margin: 0 auto;
+  background-color:transparent;
+
+}
+
+.navbar-right {
+  color: black;
+  font-size: 15px;
+  font-style: bold;
+}
+
+footer {
+  display: block;
+
+}
+
+/*CSS HOME PAGE*/
+
+.home-hero {
+  height: 90vh;
+  background-image: url("images/abs_img.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  color:white;
+  font-size: 60px;
+  justify-content: center;
+  margin-top:70px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+
+}
+
+p.section-title {
+  color:white;
+}
+
+#overlay{
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color:black;
+  background-color: transparent;
+}
+
+#overlay{
+  z-index: 10;
+}
+
+h1.overlay {
+  color:red;
+}
+
+/*.hero-slider {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-top: 100px;
+}*/
+
+h1.hero-title {
+  font-size: 80px;
+  color:lightblue;
+}
+
+a.hvr-icon-hang:before {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  color:white;
+  text-decoration: none;
+  align-self: center;
+}
+
+.rain-or-shine {
+  background-color: white;
+  text-align: center;
+  height:600px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+h1.rain-or-shine-title {
+  font-size: 60px;
+  font-stretch: semi-expanded;
+  color: #b1cce3;
+}
+
+h3.rain-or-shine-title {
+  font-size: 30px;
+  font-stretch: semi-expanded;
+  padding-bottom: 40px;
+}
+
+.thumbnail {
+  border:0;
+  box-shadow: none;
+}
+
+.imgWrap {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  color: lightblue;
+  visibility: hidden;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /*remove comment if you want a gradual transition between states
+      -webkit-transition: visibility opacity 0.2s;
+      */
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-container {
+  width: 100%;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:250px;
+  padding-top: 50px;
+}
+
+p {
+  color: lightblue;
+  font-size: 20px;
+}
+
+p.blog-p {
+  color: lightgrey;
+}
+
+.footer {
+  margin-top: 20px;
+  height:100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+  justify-content: space-between;
+}
+
+/*CSS RAIN STUDIOS PAGE*/
+
+.rain-hero {
+  height: 50vh;
+  background-image: url("images/rain_hero.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  margin-top:70px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+
+}
+
+h1.rain-hero-title {
+  font-size: 60px;
+  color:lightblue;
+
+}
+
+.rain-intro {
+  width: 100%;
+  height: 100px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.rain-studios {
+  padding-top: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+/*CSS SUN STUDIOS PAGE*/
+
+.sun-hero {
+  height: 50vh;
+  background-image: url("images/sun_hero1.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  margin-top:70px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+
+}
+
+h1.hero-sun-title {
+  color:white;
+  font-size: 60px;
+  color:lightblue;
+
+
+}
+
+p.sun-title {
+  color:black;
+  font-size: 20px;
+
+}
+
+.sun-intro {
+  width: 100%;
+  height: 100px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.sun-studios {
+  padding-top: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+/*CSS ABOUT/CONTACT PAGE*/
+
+.contact-hero {
+  height: 50vh;
+  background-color:lightgrey;
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  margin-top:50px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+
+}
+
+h1.contact-hero-title {
+  color:white;
+  font-size: 60px;
+  color:lightblue;
+
+
+}
+
+.aboutimg {
+  width: 100%;
+  height: 100%;
+}
+
+p.contact-section-title {
+  color:black;
+  font-size: 20px;
+
+}
+
+.contact-content-form {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-form {
+ box-sizing: border-box;
+ display: block;
+ font-size: 18px;
+ font-weight: normal;
+ line-height: 25.2px;
+ margin-top: 0px;
+ outline-color: rgb(0, 0, 0);
+ outline-style: none;
+ outline-width: 0px; 
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+}
