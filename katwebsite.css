@@ -48,7 +48,7 @@ hr {
 
 .home-hero {
   height: 90vh;
-  background-image:url("images/hero_img4.jpg");
+  background-image:url("images/hero_img5.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color:white;
@@ -65,7 +65,7 @@ hr {
 }
 
 p.section-title {
-  color:white;
+  color:#A8CBED;
   font-size: 30px;
   padding-top: 60px;
 }
@@ -96,7 +96,7 @@ img.dailyreport {
 }
 
 h1.overlay {
-  color: #A8CBED;
+  color: white;
   font-size: 20px;
   margin:10px;
 }
@@ -110,7 +110,7 @@ h1.overlay {
 }*/
 
 h1.hero-title {
-  font-size: 80px;
+  font-size: 70px;
   color:#B5D6B2;
 }
 
@@ -182,7 +182,7 @@ p.imgDescription {
 
 
 h1.rain-or-shine-title {
-  font-size: 90px;
+  font-size: 80px;
   font-stretch: semi-expanded;
   color: #81858E;
   padding-bottom: 10px;
@@ -206,7 +206,7 @@ small {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height:500px;
+  height:650px;
   background-color: #D0CCD0;
   display: flex;
   align-items: center;
@@ -272,7 +272,7 @@ h1.rain-hero-title {
   width: 100%;
   height: 250px;
   padding-top: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -280,8 +280,13 @@ h1.rain-hero-title {
 
 }
 
+.logo-studios {
+  height: 40px;
+  width: 40px;
+}
+
 .rain-studios {
-  padding-top: 40px;
+  padding-top: 50px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -365,7 +370,7 @@ p.sun-title {
 }
 
 .sun-studios {
-  padding-top: 40px;
+  padding-top: 100px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -376,7 +381,7 @@ p.sun-title {
 
 .contact-hero {
   height: 80vh;
-  background-image: url("images/about_hero_img.jpg");
+  background-image: url("images/contact_hero2.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
@@ -394,7 +399,7 @@ p.sun-title {
 
 h1.contact-hero-title {
   font-size: 60px;
-  color:#B5D6B2;
+  color:white;
 
 
 }
@@ -409,21 +414,47 @@ p.contact-section-title {
   font-size: 20px;
 
 }
+
+.contact-hero-about {
+  color:#A8CBED;
+  padding-bottom: 40px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.what-moves-us {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 300px;
+}
+
 .contact-form-background {
-  background-color: #81858E;
+  background-color: #D0CCD0;
   width: 80%;
   height: 700px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 .contact-content-form {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #B5D6B2;
-  width: 60%;
-  height: 500px;
+  background-color: #F9F9F9;
+  width: 70%;
+  height: 600px;
+
 }
 
 .contact-form {

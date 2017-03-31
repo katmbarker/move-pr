@@ -33,4 +33,37 @@ $(document).ready(function() {
 
 });
 
+    (function form() {
+      var name = document.getElementById('name');
+      var lastname = document.getElementById('lastname');
+      var email = document.getElementById('email');
+      var rain = document.getElementById('rain');
+      var shine = document.getElementById('shine');
+
+      var submitted = false;
+
+      submit.disabled = true;
+      submitClassName = 'disabled';
+
+      addEvent(email, 'input', function(e) {
+        var target = e.target || e.srcElement;
+        submit.disabled = submitted || target.value;
+        submit.ClassName = (!target.value || submitted ) ? 'disabled' : 'enabled';
+
+      });
+
+      addEvent(form,'submit', function(e) {
+        if (submit.disabled || submitted) {
+          e.preventDefault();
+          return;
+        }
+        submit.disabled = true;
+        submitted = true;
+        submitClassName = 'disabled';
+
+        e.preventDefault();
+        alert('Thanks for submitting' + name + lastname + 'a confirmation email has been sent to' + email);
+
+      });
+    }());
 
