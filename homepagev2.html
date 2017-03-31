@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+       <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
@@ -32,10 +32,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                        <li><a href="homepagev2.html">HOME</a></li>
-                        <li><a href="rainstudiospage.html">RAIN</a></li>
-                        <li><a href="shinestudiospage.html">SHINE</a></li>
-                        <li><a href="aboutpage.html">ABOUT</a></li>
+                        <li><a class="navitem" href="homepagev2.html">HOME</a></li>
+                        <li><a class="navitem" href="rainstudiospage.html">RAIN</a></li>
+                        <li><a class="navitem" href="shinestudiospage.html">SHINE</a></li>
+                        <li><a class="navitem" href="aboutpage.html">ABOUT</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -45,9 +45,12 @@
             <div class="row">
                 <div class="hero-slider banner text-center container">
                     <br/>
-                    <h1 class="hero-title">MOVE SAN JUAN</h1>
+<!--                     <h1 class="hero-title">MOVE SAN JUAN</h1>
+                    <br/> -->
+                    <p class="text-uppercase section-title text-centered"><em><strong>Move San Juan</em></strong>
                     <br/>
-                    <p class="text-uppercase section-title text-centered">No matter the weather, we've got you covered so <br/>you can <em>sweat it out</em>.</p>
+                    </p>
+                    <p class="text-uppercase text-centered p-hero">No matter the weather, we've got you covered<br/> so you can <em>sweat it out</em>.</p>          
                         <div>
                         <a class="hvr-icon-hang" href="#options">
                         </a>
@@ -62,70 +65,82 @@
             <div class="row">
                 <div>
                 <h1 class="col-xs-12 rain-or-shine-title">RAIN OR SHINE</h1>
-                <h3 class="col-xs-12 rain-or-shine-title">YOU'VE GOT OPTIONS</h3>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="shinestudiospage.html" class="thumbnail">
-                            <img src="sun_icon.png" alt="sun"> 
+                        <a href="shinestudiospage.html" class="thumbnail" id="thumbnail-home">
+                            <img src="images/sun.png" alt="sun"> 
                             <div class="textwrap">
                             <p class="text-uppercase imgDescription">Beautiful Day<br/>Go outside.</p> 
                             </div>
                         </a>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="shinestudiospage.html" class="thumbnail">
-                            <img src="cloud_sun-no-background.png" alt="clouds"> 
+                        <a href="shinestudiospage.html" class="thumbnail" id="thumbnail-home">
+                            <img src="images/cloudy.png" alt="clouds"> 
                             <div class="textwrap">
-                            <p class="text-uppercase imgDescription">We'll take it<br/>Get out there.</p> 
+                            <p class="text-uppercase imgDescription">We'll take it!<br/>Get out there.</p> 
                             </div>
                         </a>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="rainstudiospage.html" class="thumbnail">
-                            <img src="cloud-rain-no-bg.png" alt="rain">  
+                        <a href="rainstudiospage.html" class="thumbnail" id="thumbnail-home">
+                            <img src="images/rain.png" alt="rain">  
                             <div class="textwrap">
                             <p class="text-uppercase imgDescription">Better stay dry...<br/>See studios.</p>
                             </div>
                         </a>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="rainstudiospage.html" class="thumbnail">
-                            <img src="thunder_icon.png" alt="lighting">  
+                        <a href="rainstudiospage.html" class="thumbnail" id="thumbnail-home">
+                            <img src="images/thunder.png" alt="lighting">  
                             <div class="textwrap">
-                            <p class="text-uppercase imgDescription">Take Cover<br/>See studios.</p>
+                            <p class="text-uppercase imgDescription">Take Cover!<br/>See studios.</p>
                             </div>
                         </a>
                 </div>
-                <hr>
-        </div> 
-        <!-- <div class="weather-options container">
-            <div class="row">
                 <div>
-                <hr>
-                <h1 class="col-xs-12">WHAT'S THE WEATHER DOING TODAY?</h1>
+                <h3 class="col-xs-12 rain-or-shine-title">YOU'VE GOT OPTIONS</h3>
                 </div>
-                <div class="col-sm-6 col-xs-12 hero-rain">
-                    <img class="weather-rain-img" src="http://lorempixel.com/400/400/sports/" />
-                </div>
-                <div class="col-sm-6 col-xs-12 hero-shine">
-                    <img class="weather-shine-img" src="http://lorempixel.com/400/400/sports/" />
-                </div>
-                <div class="col-sm-6 col-xs-12 hero-rain">
-                    <img class="weather-rain-img" src="http://lorempixel.com/400/400/sports/" />
-                </div>
-                <div class="col-sm-6 col-xs-12 hero-shine">
-                    <img class="weather-shine-img" src="http://lorempixel.com/400/400/sports/" />
-                </div>    
-            </div>           
-        </div>   -->
-        <div class="blog-container">
-            <div class="section-blog-container">
-                <h3 class="section-title text-centered">LOREM LOREM</h3>
+                <hr/>
+            </div>    
+        </div> 
+        <div class="blog container">
+                <div class="row">
+                    <div class="col-xs-12">
+                    <h3 class="section-title text-centered">FEATURED ACTIVITIES</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
+                            <img src="images/yoga_img1.jpeg" alt="yoga">
+                            <div class="caption">
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
+                                <p>Book a Class.</p> 
+                            </div>    
+                        </a>
+                    </div>    
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
+                            <img src="images/yoga_img1.jpeg" alt="yoga">
+                            <div class="caption">
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
+                                <p>Book a Class.</p> 
+                            </div>    
+                        </a>
+                    </div>   
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
+                            <img src="images/yoga_img1.jpeg" alt="yoga">
+                            <div class="caption">
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
+                                <p>Book a Class.</p> 
+                            </div>    
+                        </a>
+                    </div>   
                 <br/>
-                <p class="blog-p section-title text-centered">Hi! We're Move San Juan. A way to make it easy to move around San Juan with weather patterns. If your run gets ruined by the rain, don't fret! We've got a number of studios in your area to allow you to <em>sweat it out</em>.</p>
-                <br/>
+<!--                 <p class="blog-p lead text-centered">Hi! We're Move San Juan. A way to make it easy to move around San Juan with weather patterns. If your run gets ruined by the rain, don't fret! We've got a number of studios in your area to allow you to <em>sweat it out</em>.</p>
+                <br/> -->
                 <!-- <span class="glyphicon glyphicon-menu-down text-center" aria-hidden="true"></span> -->
-            </div>
+                </div>
         </div>
        <!--  <footer class="footer container-fluid">
             <img class="footer-logo" src="move-sj.png" />  

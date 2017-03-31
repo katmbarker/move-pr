@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+       <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ -->
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -30,7 +30,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <img class="logo" src="move-sj.png" a class="navbar-brand" href="homepagev2.html"></a>
+                  <a class="navbar-brand" href="homepagev2.html">
+                    <img class="logo" src="move-sj.png"/>
+                  </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,173 +51,178 @@
                     <br/>
                     <h1 class="rain-hero-title">NASTY WEATHER, EH?</h1>
                     <br/>
-                    <p class="lead text-uppercase section-title text-centered">No worries, we know some studios. <br/>Check them out below.</p>
+                    <p class="lead text-uppercase section-title text-centered">No worries, we know some studios. <br/><em>Check them out below.</em></p>
+                    <div>
+                        <a class="hvr-icon-hang" href="#rainstudios">
+                        </a>
+                    </div>
                 </div>    
             </div>   
         </div>     
         <section class="studios-rain" id="rainstudios">
             <div class="rain-intro">
-                <h2>Thought you had an excuse to stay in bed?</h2>
-                <h3>Not any more!</h3>
+                <h2 class="text-uppercase">Thought you had an excuse to stay in bed?</h2>
+                <h3 class="text-uppercase">Not so fast!</h3>
+                <p class="lead">Check out a variety of studios in your area below.<br/> Whether you're in the mood for a relaxing yoga class or an intense cardio workout, we have something for you. <br/>Simply click on a studio below for more information.</p> 
                 <hr/>
             </div>
             <div class="container rain-studios">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1>YOGA</h1>
+                        <h1 class="studio-type">YOGA</h1>
                     </div>    
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://balastudiopr.com/" class="thumbnail1">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>BALA YOGA STUDIO</h3>
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://www.ashtangayogapuertorico.com/" class="thumbnail1">
+                        <a href="http://www.ashtangayogapuertorico.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>ASHTANGA YOGA</h3>
+                                <h3 class="studio-name">ASHTANGA YOGA</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://www.yogapr.com/" class="thumbnail1">
+                        <a href="http://www.yogapr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>SAMADHI YOGA INSTITUTE</h3>
+                                <h3 class="studio-name">SAMADHI YOGA INSTITUTE</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://casayogapr.com/" class="thumbnail1">
+                        <a href="http://casayogapr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>CASA YOGA PR</h3>
+                                <h3 class="studio-name">CASA YOGA PR</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
 <!-- //New set of studios -->
                     <div class="col-xs-12">
-                        <h1>STRENGTH TRAINING AND BOXING</h1>
+                        <h1 class="studio-type">STRENGTH TRAINING AND BOXING</h1>
                     </div>    
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://www.aggressivecrossfit.com/" class="thumbnail1">
+                        <a href="http://www.aggressivecrossfit.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/weightlifting_1.jpeg" alt="lighting">
                             <div class="caption">
-                                <h3>AGGRESSIVE CROSSFIT</h3>
+                                <h3 class="studio-name">AGGRESSIVE CROSSFIT</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://balastudiopr.com/" class="thumbnail1">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/weightlifting_1.jpeg" alt="lighting">
                             <div class="caption">
-                                <h3>TEAM THUNDER MUAY THAI</h3>
+                                <h3 class="studio-name">TEAM THUNDER MUAY THAI</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="https://www.facebook.com/pages/SB-Fitness-PT-Kickboxing-Studio/467036060050725" class="thumbnail1">
+                        <a href="https://www.facebook.com/pages/SB-Fitness-PT-Kickboxing-Studio/467036060050725" class="thumbnail" id="thumbnail-studio">
                             <img src="images/weightlifting_1.jpeg" alt="lifting">
                             <div class="caption">
-                                <h3>SB FITNESS</h3>
+                                <h3 class="studio-name">SB FITNESS</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://balastudiopr.com/" class="thumbnail1">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/weightlifting_1.jpeg" alt="lifting">
                             <div class="caption">
-                                <h3>BALA STUDIO</h3>
+                                <h3 class="studio-name">BALA STUDIO</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
 <!-- //New set of studios -->
                     <div class="col-xs-12">
-                        <h1>CARDIO</h1>
+                        <h1 class="studio-type">CARDIO</h1>
                     </div>  
                     <div class="col-xs-6 col-md-3">
-                        <a href="https://www.facebook.com/CondadoCycling/" class="thumbnail1">
+                        <a href="https://www.facebook.com/CondadoCycling/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>CONDADO CYCLING</h3>
+                                <h3 class="studio-name">CONDADO CYCLING</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://balastudiopr.com/" class="thumbnail1">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>BALA YOGA STUDIO</h3>
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://balastudiopr.com/" class="thumbnail1">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>BALA YOGA STUDIO</h3>
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://balastudiopr.com/" class="thumbnail1">
+                        <a href="http://balastudiopr.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>BALA YOGA STUDIO</h3>
+                                <h3 class="studio-name">BALA YOGA STUDIO</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
 <!-- //New set of studios -->
                     <div class="col-xs-12">
-                        <h1>GYMS</h1>
+                        <h1 class="studio-type">GYMS</h1>
                     </div>  
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://livfitnessclub.com/" class="thumbnail1">
+                        <a href="http://livfitnessclub.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>LIV FITNESS CLUB</h3>
+                                <h3 class="studio-name">LIV FITNESS CLUB</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="https://www.facebook.com/pg/international.fitness.center/about/?ref=page_internal" class="thumbnail1">
+                        <a href="https://www.facebook.com/pg/international.fitness.center/about/?ref=page_internal" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>INTERNATIONAL FITNESS</h3>
+                                <h3 class="studio-name">INTERNATIONAL FITNESS</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://www.planetfitness.com/gyms/san-juan-ciudadela-pr-937" class="thumbnail1">
+                        <a href="http://www.planetfitness.com/gyms/san-juan-ciudadela-pr-937" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>PLANET FITNESS</h3>
+                                <h3 class="studio-name">PLANET FITNESS</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
-                        <a href="http://www.hcoafitness.com/" class="thumbnail1">
+                        <a href="http://www.hcoafitness.com/" class="thumbnail" id="thumbnail-studio">
                             <img src="images/yoga_img1.jpeg" alt="yoga">
                             <div class="caption">
-                                <h3>HCOA FITNESS</h3>
+                                <h3 class="studio-name">HCOA FITNESS</h3>
                                 <p>Book a Class.</p> 
                             </div>    
                         </a>

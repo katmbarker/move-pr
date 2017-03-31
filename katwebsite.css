@@ -1,22 +1,29 @@
 body {
   margin:0;
-  background-color: #EFEFEF;
-  font-family: sans-serif;
+  background-color: #F9F9F9;
+  font-family: inherit;
   width:100%;
   height: 100%;
 }
 
 .navbar {
   margin: 0 auto;
-  background-color:transparent;
+  background-color:#FFFFFF;
   height:70px;
 
 }
 
 .navbar-right {
-  color: black;
+  color: #FFFFFF;
   font-size: 15px;
-  font-style: bold;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+
+.navbar-right:hover {
+  font-color:#00171F;
 }
 
 .logo {
@@ -28,11 +35,20 @@ footer {
 
 }
 
+.lead {
+  color: #79B1E5;
+  text-align: center;
+}
+
+hr {
+  color:black;
+}
+
 /*CSS HOME PAGE*/
 
 .home-hero {
   height: 90vh;
-  background-image: url("images/abs_img.png");
+  background-image:url("images/hero_img4.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color:white;
@@ -51,6 +67,12 @@ footer {
 p.section-title {
   color:white;
   font-size: 30px;
+  padding-top: 190px;
+}
+
+p.p-hero {
+  color:white;
+  font-size: 20px;
 }
 
 #overlay{
@@ -74,7 +96,7 @@ img.dailyreport {
 }
 
 h1.overlay {
-  color:white;
+  color: #A8CBED;
   font-size: 20px;
   margin:10px;
 }
@@ -89,7 +111,7 @@ h1.overlay {
 
 h1.hero-title {
   font-size: 80px;
-  color:lightblue;
+  color:#B5D6B2;
 }
 
 a.hvr-icon-hang:before {
@@ -102,32 +124,19 @@ a.hvr-icon-hang:before {
 }
 
 .rain-or-shine {
-  background-color: #EFEFEF;
+  background-color: #F9F9F9;
   text-align: center;
   height:600px;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
   margin-bottom: 50px;
 }
 
-h1.rain-or-shine-title {
-  font-size: 60px;
-  font-stretch: semi-expanded;
-  color: #b1cce3;
-  padding-top: 40px;
-}
-
-h3.rain-or-shine-title {
-  font-size: 30px;
-  font-stretch: semi-expanded;
-  padding-bottom: 40px;
-}
-
-.thumbnail {
+#thumbnail-home {
   border:0;
   box-shadow: none;
-  background-color: #EFEFEF;
+  background-color: #F9F9F9;
 }
 
 .imgWrap {
@@ -143,8 +152,7 @@ h3.rain-or-shine-title {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #EFEFEF;
-  color: lightblue;
+  background: #F9F9F9;
   visibility: hidden;
   opacity: 0;
   align-items: center;
@@ -165,23 +173,47 @@ h3.rain-or-shine-title {
   font-size: 70px;
 }
 
-.blog-container {
-  width: 100%;
-  padding-top: 40px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height:250px;
-  padding-top: 50px;
-}
-
 p.imgDescription {
-  color: #B5D6B2;
+  color: #81858E;
   font-size: 20px;
 }
 
+
+h1.rain-or-shine-title {
+  font-size: 90px;
+  font-stretch: semi-expanded;
+  color: #A8CBED;
+  padding-bottom: 30px;
+}
+
+h3.rain-or-shine-title {
+  font-size: 40px;
+  font-stretch: semi-expanded;
+  padding-bottom: 10px;
+  color:#81858E;
+}
+
+.blog {
+  width: 90%;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:500px;
+  background-color: #A8CBED;
+  display: flex;
+  align-items: center;
+}
+
+h3.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+
 p.blog-p {
-  color: lightgrey;
+  color: #D0CCD0;
 }
 
 .footer {
@@ -197,8 +229,8 @@ p.blog-p {
 /*CSS RAIN STUDIOS PAGE*/
 
 .rain-hero {
-  height: 50vh;
-  background-image: url("images/rain_hero.jpg");
+  height: 80vh;
+  background-image: url("images/rainhero2.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
@@ -216,18 +248,19 @@ p.blog-p {
 
 h1.rain-hero-title {
   font-size: 60px;
-  color:lightblue;
+  color:#79B1E5;
 
 }
 
 .rain-intro {
   width: 100%;
-  height: 100px;
+  height: 250px;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   align-items: center;
   text-align: center;
   justify-content: center;
+  color:#79B1E5;
 
 }
 
@@ -239,11 +272,27 @@ h1.rain-hero-title {
 
 }
 
+h1.studio-type {
+  color: #81858E;
+  margin-bottom: 30px;
+}
+
+
+#thumbnail-studio {
+  background-color: white;
+  color:#B5D6B2;
+  font:#B5D6B2;
+}
+
+.col-md-3 {
+  height: 400px;
+}
+
 /*CSS SUN STUDIOS PAGE*/
 
 .sun-hero {
-  height: 50vh;
-  background-image: url("images/sun_hero1.jpg");
+  height: 80vh;
+  background-image: url("images/sunhero_img.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
@@ -262,13 +311,12 @@ h1.rain-hero-title {
 h1.hero-sun-title {
   color:white;
   font-size: 60px;
-  color:lightblue;
 
 
 }
 
 p.sun-title {
-  color:black;
+  color:#81858E;
   font-size: 20px;
 
 }
@@ -295,8 +343,8 @@ p.sun-title {
 /*CSS ABOUT/CONTACT PAGE*/
 
 .contact-hero {
-  height: 50vh;
-  background-color:lightgrey;
+  height: 80vh;
+  background-image: url("images/about_hero_img.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
@@ -313,9 +361,8 @@ p.sun-title {
 }
 
 h1.contact-hero-title {
-  color:white;
   font-size: 60px;
-  color:lightblue;
+  color:#B5D6B2;
 
 
 }
@@ -330,11 +377,21 @@ p.contact-section-title {
   font-size: 20px;
 
 }
+.contact-form-background {
+  background-color: #81858E;
+  width: 80%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
 
 .contact-content-form {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #B5D6B2;
+  width: 60%;
+  height: 500px;
 }
 
 .contact-form {
