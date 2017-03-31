@@ -67,7 +67,7 @@ hr {
 p.section-title {
   color:white;
   font-size: 30px;
-  padding-top: 190px;
+  padding-top: 60px;
 }
 
 p.p-hero {
@@ -137,6 +137,8 @@ a.hvr-icon-hang:before {
   border:0;
   box-shadow: none;
   background-color: #F9F9F9;
+  height: 220px;
+  width: 220px;
 }
 
 .imgWrap {
@@ -182,15 +184,20 @@ p.imgDescription {
 h1.rain-or-shine-title {
   font-size: 90px;
   font-stretch: semi-expanded;
-  color: #A8CBED;
-  padding-bottom: 30px;
+  color: #81858E;
+  padding-bottom: 10px;
 }
 
 h3.rain-or-shine-title {
   font-size: 40px;
   font-stretch: semi-expanded;
   padding-bottom: 10px;
-  color:#81858E;
+  color:#A8CBED;
+}
+
+small {
+  font-style: italic;
+  font-size: 9px;
 }
 
 .blog {
@@ -200,7 +207,7 @@ h3.rain-or-shine-title {
   justify-content: center;
   text-align: center;
   height:500px;
-  background-color: #A8CBED;
+  background-color: #D0CCD0;
   display: flex;
   align-items: center;
 }
@@ -209,11 +216,21 @@ h3.section-title {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 20px;
+  color:white;
 }
 
 
 p.blog-p {
-  color: #D0CCD0;
+  color: #81858E;
+}
+
+.about-home {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .footer {
@@ -237,7 +254,6 @@ p.blog-p {
   font-size: 60px;
   justify-content: center;
   margin-top:70px;
-  margin-bottom: 20px;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -248,7 +264,7 @@ p.blog-p {
 
 h1.rain-hero-title {
   font-size: 60px;
-  color:#79B1E5;
+  color:white;
 
 }
 
@@ -260,7 +276,7 @@ h1.rain-hero-title {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color:#79B1E5;
+  color:#A8CBED;
 
 }
 
@@ -280,19 +296,34 @@ h1.studio-type {
 
 #thumbnail-studio {
   background-color: white;
-  color:#B5D6B2;
-  font:#B5D6B2;
+  color:#A8CBED;
 }
 
 .col-md-3 {
   height: 400px;
 }
 
+h2.studios-intro {
+  color:#81858E;
+}
+
+h3.studios-intro {
+  color: #D0CCD0;
+}
+
+h3.studio-name {
+  color:#A8CBED
+}
+
+p.book-class {
+  color:#A8CBED
+}
+
 /*CSS SUN STUDIOS PAGE*/
 
 .sun-hero {
   height: 80vh;
-  background-image: url("images/sunhero_img.jpg");
+  background-image: url("images/sun_hero3.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
@@ -316,8 +347,9 @@ h1.hero-sun-title {
 }
 
 p.sun-title {
-  color:#81858E;
+  color:white;
   font-size: 20px;
+  padding-top: 20px;
 
 }
 
