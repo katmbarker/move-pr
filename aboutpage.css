@@ -1,0 +1,95 @@
+
+/*CSS ABOUT/CONTACT PAGE*/
+
+.contact-hero {
+  height: 80vh;
+  background-image: url("images/biking.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  margin-top:50px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+
+}
+
+h1.contact-hero-title {
+  font-size: 60px;
+  color:white;
+
+
+}
+
+.aboutimg {
+  width: 100%;
+  height: 100%;
+}
+
+p.contact-section-title {
+  color:black;
+  font-size: 20px;
+
+}
+
+.contact-hero-about {
+  color:#A8CBED;
+  padding-bottom: 40px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.what-moves-us {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.contact-form-background {
+  background-color: #D0CCD0;
+  width: 80%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.contact-content-form {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #F9F9F9;
+  width: 70%;
+  height: 600px;
+
+}
+
+.contact-form {
+ box-sizing: border-box;
+ display: block;
+ font-size: 18px;
+ font-weight: normal;
+ line-height: 25.2px;
+ margin-top: 0px;
+ outline-color: rgb(0, 0, 0);
+ outline-style: none;
+ outline-width: 0px; 
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+}

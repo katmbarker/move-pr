@@ -1,0 +1,91 @@
+/*CSS SUN STUDIOS PAGE*/
+
+.sun-hero {
+  height: 80vh;
+  background-image: url("images/sun_hero3.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  margin-top:70px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+
+}
+
+h1.hero-sun-title {
+  color:white;
+  font-size: 60px;
+
+}
+
+a.hvr-icon-hang:before {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  color:white;
+  text-decoration: none;
+  align-self: center;
+}
+
+p.sun-title {
+  color:white;
+  font-size: 20px;
+  padding-top: 20px;
+
+}
+
+.sun-intro {
+  width: 100%;
+  height: 100px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.logo-studios {
+  height: 40px;
+  width: 40px;
+}
+
+.sun-studios {
+  padding-top: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+#thumbnail-studio {
+  background-color: white;
+  color:#A8CBED;
+}
+
+.col-md-4 {
+  height: 470px;
+}
+
+h2.studios-intro {
+  color:#81858E;
+}
+
+h3.studios-intro {
+  color: #D0CCD0;
+}
+
+h3.studio-name {
+  color:#A8CBED
+}
+
+p.book-class {
+  color:#A8CBED
+}
