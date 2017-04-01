@@ -84,7 +84,7 @@ a.hvr-icon-hang:before {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #thumbnail-home {
@@ -93,6 +93,7 @@ a.hvr-icon-hang:before {
   background-color: #F9F9F9;
   height: 220px;
   width: 220px;
+  color:#A8CBED;
 }
 
 .imgWrap {
@@ -156,7 +157,6 @@ small {
 
 .blog {
   width: 90%;
-  padding-top: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -164,6 +164,23 @@ small {
   background-color: #D0CCD0;
   display: flex;
   align-items: center;
+}
+
+#thumbnail-studio {
+  background-color: white;
+  color:#A8CBED;
+}
+
+h3.studio-name {
+  color:#A8CBED
+}
+
+p.book-class {
+  color:#A8CBED
+}
+
+p.cta {
+  color:#81858E;
 }
 
 h3.section-title {
@@ -179,7 +196,7 @@ p.blog-p {
 }
 
 .about-home {
-  padding-top: 30px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

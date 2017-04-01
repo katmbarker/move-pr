@@ -22,8 +22,26 @@
 h1.contact-hero-title {
   font-size: 60px;
   color:white;
+}
 
+div.what-moves-us {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
+h1.contact-hero-about {
+  font-weight: bold;
+  margin-bottom: 0px;
+  color:black;
+  margin-right: 20px;
+}
+
+.logo-studios {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
 }
 
 .aboutimg {
@@ -31,8 +49,36 @@ h1.contact-hero-title {
   height: 100%;
 }
 
-p.contact-section-title {
+h1.about-content {
+  align-self: center;
+  color:#D0CCD0;
+  font-weight: bold;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1.about-content {
+  color:#A8CBED;
+}
+
+p.about-content {
   color:black;
+}
+
+h1.contactform-section {
+  color:#A8CBED;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+p.contact-section-title {
+  color:#A8CBED;
   font-size: 20px;
 
 }
@@ -48,21 +94,25 @@ p.contact-section-title {
   align-items: center;
   padding-bottom: 30px;
   text-align: center;
+  padding-top: 40px;
 }
 
+
 .what-moves-us {
-  display:flex;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 300px;
+  align-items: center;
+
+}
+
+.gallery {
+  align-items: top;
 }
 
 .contact-form-background {
   background-color: #D0CCD0;
-  width: 80%;
-  height: 700px;
+  width: 60%;
+  height: 620px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +125,8 @@ p.contact-section-title {
   text-align: center;
   background-color: #F9F9F9;
   width: 70%;
-  height: 600px;
+  height: 550px;
+  color:#A8CBED;
 
 }
 
@@ -92,4 +143,8 @@ p.contact-section-title {
  align-items: center;
  text-align: center;
  justify-content: center;
+}
+
+.field {
+  padding-top: 10px;
 }
