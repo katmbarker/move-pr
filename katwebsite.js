@@ -14,11 +14,9 @@ $(document).ready(function() {
         var $spinner = $('.spinner');
         $spinner.remove();
 
-        console.log(parsed_json);
-
         var condition = precipitation.replace(' ', '-').toLowerCase();
         var sunnyRecommendation = ['sunny', 'partly-sunny','overcast','clear','partly-cloudy','mostly-cloudy','scattered-clouds','cloudy'];
-        var rainnyRecommendation = ['drizzle','rain','rain-mist','rain-showers','thunderstorm', 'thunderstorms','thunderstorms-and-rain','chance-of-a-thunderstorm','chance-of-rain','chance-of-showers','very-hot'];
+        var rainyRecommendation = ['drizzle','rain','rain-mist','rain-showers','thunderstorm', 'thunderstorms','thunderstorms-and-rain','chance-of-a-thunderstorm','chance-of-rain','chance-of-showers','very-hot'];
         // var noReccomendation = ['snow','snow-grains','ice-crystals','ice-pellets','hail','mist','fog','fog-patches','smoke','volcanic-ash','widespread-dust','sand','haze','spray','dust-whirls','sandstorm','low-drifting-snow','low-drifting-widespread-dust','low-drifting-sand','blowing-snow','blowing-widespread-dust','blowding-sand','snow-showers','snow-blowing-snow-mist','ice-pellet-showers','hail-showers','small-hail-showers','thunderstorms-and-snow','thunderstorms-and-ice-pellets','thunderstorms-and-hail','thunderstorms-and-small-hail','freezing-drizzle','freezing-rain','freezing-fog','patches-of-fog','shallow-fog','partial-fog','small-hail','squalls','funnel-cloud','unknown-precipitation','unknown','hazy','foggy','very-cold']
 
         $overlay.append('<h1 class="overlay">' + e + '</h1>');
@@ -26,9 +24,7 @@ $(document).ready(function() {
         $overlay.append('<h1 class="overlay">' + precipitation + ' ' + '</h1>');
         $overlay.append('<img class="dailyreport" src="' + icon + '" />');
 
-        console.log(condition);
         if (sunnyRecommendation.indexOf(condition) > -1) {
-            console.log('this is our recommmendation')
             $('.sunny-result').show();
         } else if (rainyRecommendation.indexOf(condition) > -1) {
             $('.rainy-result').show();
@@ -36,8 +32,8 @@ $(document).ready(function() {
             $('.buttons').hide();
         }
     }
-   
-  });
+        
+});
 
   function formatDate(date) {
     var hours = date.getHours();
@@ -54,7 +50,9 @@ $(document).ready(function() {
     console.log('--> on form submit');
     event.preventDefault();
     $('#msg').removeClass('hidden');
-  });
+  }); 
+
 
 });
+
 

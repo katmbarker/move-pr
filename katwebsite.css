@@ -42,6 +42,7 @@ p.p-hero {
 
 hr {
   color:black;
+  line-height: 3px;
 }
 
 footer {
@@ -71,11 +72,17 @@ footer {
   height: 35px;
   width: 100%;
   align-self: flex-start;
+  margin-left: 0;
   background-color: rgba(0,0,0,0.5);
   color:white;
 }
 
 .sunny-result:hover {
+  background-color: white;
+  color:#79B1E5;
+}
+
+.rainy-result:hover {
   background-color: white;
   color:#79B1E5;
 }
