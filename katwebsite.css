@@ -45,10 +45,6 @@ hr {
   line-height: 3px;
 }
 
-footer {
-  display: block;
-
-}
 
 .hidden {
   opacity: 0;
@@ -85,4 +81,10 @@ footer {
 .rainy-result:hover {
   background-color: white;
   color:#79B1E5;
+}
+
+.footer {
+  height: 80px;
+  background-color: #D0CCD0;
+  display: flex;
 }

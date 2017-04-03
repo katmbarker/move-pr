@@ -112,15 +112,15 @@ p.contact-section-title {
   align-items: top;
 }
 
-.contact-form-background {
-  background-color: #D0CCD0;
+/*.contact-form-background {
+  background-color: #F9F9F9;
   width: 60%;
   height: 620px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 30px;
-}
+}*/
 
 .contact-content-form {
   align-items: center;

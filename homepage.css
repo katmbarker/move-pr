@@ -208,13 +208,3 @@ p.blog-p {
   padding-bottom: 30px;
 }
 
-.footer {
-  margin-top: 20px;
-  height:100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  background-color:black;
-  justify-content: space-between;
-}
-
