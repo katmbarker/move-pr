@@ -42,76 +42,97 @@
             </div><!-- /.container-fluid -->
         </nav>
         <div class="home-hero container-fluid">
-            <div id="weather"></div>    
-            <div class="row">
-                <div class="hero-slider banner text-center container">
-                    <br/>
+            <div id="weather">  
+                <div class="row">
+                    <div class="hero-slider banner text-center container">
+                        <br/>
 <!--                     <h1 class="hero-title">MOVE SAN JUAN</h1>
                     <br/> -->
-                    <p class="text-uppercase section-title text-centered"><em><strong>Move San Juan</em></strong>
-                    <br/>
-                    </p>
-                    <p class="text-uppercase text-centered p-hero">No matter the weather, we've got you covered<br/> so you can <em>sweat it out</em>.</p>          
-                        <div>
+                    <!-- <div class="buttons container-fluid">
+                        <button class="sunny-result btn-default" hidden>
+                            <a href="shinestudiospage.html">See Our Recommendations</a>
+                        </button>
+                        <button class="rainy-result btn-default" hidden>
+                            <a href="rainstudiospage.html">See Our Recommendations</a>
+                        </button>
+                    </div>   -->
+
+                        <p class="text-uppercase section-title text-centered"><em><strong>Move San Juan</em></strong>
+                        <br/>
+                        </p>
+                    <!-- <p class="text-uppercase text-centered p-hero">No matter the weather, we've got you covered<br/> so you can <em>sweat it out</em>.</p>       -->    
+                    <div>
                         <a class="hvr-icon-hang" href="#options">
                         </a>
-                        </div>
+                    </div>
                 </div>   
                 <div id="overlay">
                     <h1 class="overlay text-uppercase">TODAY'S WEATHER</h1>
+                    <div class="spinner">
+                        <img src="images/spinner.gif">
+                    </div> 
+                </div>    
+                <div class="buttons container-fluid">
+                    <a class="sun" href="shinestudiospage.html">
+                        <button class="sunny-result" hidden>See Our Recommendations</button>
+                    </a>
+                    <a class="rain" href="rainstudiospage.html">
+                        <button class="rainy-result btn-default" hidden>See Our Recommendations</button>
+                    </a>                    
+                </div>  
                 </div>
             </div>   
         </div>     
         <div class="rain-or-shine container" id="options">
             <div class="row">
                 <div>
-                <h1 class="col-xs-12 rain-or-shine-title">RAIN OR SHINE</h1>
-                <h3 class="col-xs-12 rain-or-shine-title">YOU'VE GOT OPTIONS</h3>
+                    <h1 class="col-xs-12 rain-or-shine-title">RAIN OR SHINE</h1>
+                    <h3 class="col-xs-12 rain-or-shine-title">YOU'VE GOT OPTIONS</h3>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="shinestudiospage.html" class="thumbnail" id="thumbnail-home">
-                            <img src="images/sun.png" alt="sun"> 
-                            <div class="textwrap">
+                    <a href="shinestudiospage.html" class="thumbnail" id="thumbnail-home">
+                        <img src="images/sun.png" alt="sun"> 
+                        <div class="textwrap">
                             <p class="text-uppercase imgDescription">Beautiful Day<br/>Go outside.</p> 
-                            </div>
-                        </a>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="shinestudiospage.html" class="thumbnail" id="thumbnail-home">
-                            <img src="images/cloudy.png" alt="clouds"> 
-                            <div class="textwrap">
+                    <a href="shinestudiospage.html" class="thumbnail" id="thumbnail-home">         
+                        <img src="images/cloudy.png" alt="clouds"> 
+                        <div class="textwrap">
                             <p class="text-uppercase imgDescription">We'll take it!<br/>Get out there.</p> 
-                            </div>
-                        </a>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="rainstudiospage.html" class="thumbnail" id="thumbnail-home">
-                            <img src="images/rain.png" alt="rain">  
-                            <div class="textwrap">
+                    <a href="rainstudiospage.html" class="thumbnail" id="thumbnail-home">
+                        <img src="images/rain.png" alt="rain">  
+                        <div class="textwrap">
                             <p class="text-uppercase imgDescription">Better stay dry...<br/>See studios.</p>
-                            </div>
-                        </a>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-3 imgWrap">
-                        <a href="rainstudiospage.html" class="thumbnail" id="thumbnail-home">
-                            <img src="images/thunder.png" alt="lighting">  
-                            <div class="textwrap">
+                    <a href="rainstudiospage.html" class="thumbnail" id="thumbnail-home">
+                        <img src="images/thunder.png" alt="lighting">  
+                        <div class="textwrap">
                             <p class="text-uppercase imgDescription">Take Cover!<br/>See studios.</p>
-                            </div>
-                        </a>
+                        </div>
+                    </a>
                 </div>
                 <div>
-                <small>*Click on the icon above that cooresponds with today's weather to see activites</small>
+                    <small>*Click on the icon above that cooresponds with today's weather to see activites</small>
                 </div>
                 <hr/>
             </div>    
         </div> 
-        <div class="blog container">
+        <div class="blog container-fluid">
                 <div class="row">
                     <div class="col-xs-12">
                     <h3 class="section-title text-centered">FEATURED ACTIVITIES</h3>
                     </div>
-                    <div class="col-xs-6 col-md-4">
+                    <div class="col-xs-12 col-md-4">
                         <a href="http://www.aggressivecrossfit.com/" class="thumbnail" id="thumbnail-studio" target="blank">
                             <img src="images/crossfit.png" alt="lighting">
                             <div class="caption">
@@ -121,7 +142,7 @@
                             </div>    
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-4">
+                    <div class="col-xs-12 col-md-4">
                         <a href="" class="thumbnail" id="thumbnail-studio">
                             <img src="images/running.jpg" height="200px" alt="lighting">
                             <div class="caption">
@@ -130,7 +151,7 @@
                             </div>    
                         </a>
                     </div>  
-                    <div class="col-xs-6 col-md-4">
+                    <div class="col-xs-12 col-md-4">
                         <a href="http://www.gosurfpr.com/" class="thumbnail" id="thumbnail-studio" target="blank">
                             <img src="images/surf.jpg" alt="yoga">
                             <div class="caption">
@@ -146,6 +167,8 @@
         <div class="container about-home">
             <div class="row">
                 <div class="col-xs-12">
+                <hr/>
+                    <p class="text-uppercase text-centered p-hero">No matter the weather, we've got you covered<br/> so you can <em>sweat it out</em>.</p>       
                     <a href="aboutpage.html">
                         <button type="button" class="btn btn-default btn-lg">Find Out More</button>
                     </a>

@@ -20,18 +20,18 @@
 
 p.section-title {
   color:#A8CBED;
-  font-size: 30px;
+  font-size: 60px;
   padding-top: 200px;
 }
 
 p.p-hero {
-  color:white;
+  color:#A8CBED;
   font-size: 20px;
 }
 
 #overlay{
-  width: 30%;
-  height: 30%;
+  width: 100%;
+/*  height: 100%;*/
   position: absolute;
   top: 0;
   left: 0;
@@ -80,7 +80,7 @@ a.hvr-icon-hang:before {
 .rain-or-shine {
   background-color: #F9F9F9;
   text-align: center;
-  height:600px;
+/*  height:600px;*/
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 20px;
@@ -160,10 +160,10 @@ small {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height:650px;
+/*  height:650px;*/
   background-color: #D0CCD0;
   display: flex;
-  align-items: center;
+  margin-top: 15px;
 }
 
 #thumbnail-studio {
@@ -172,11 +172,11 @@ small {
 }
 
 h3.studio-name {
-  color:#A8CBED
+  color:#A8CBED;
 }
 
 p.book-class {
-  color:#A8CBED
+  color:#A8CBED;
 }
 
 p.cta {

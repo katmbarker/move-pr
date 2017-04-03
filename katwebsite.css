@@ -48,3 +48,34 @@ footer {
   display: block;
 
 }
+
+.hidden {
+  opacity: 0;
+}
+
+#msg {
+  background-color: rgba(0,0,0,0.7);
+  padding: 100px 10px;
+  position: relative;
+  top: -370px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.buttons {
+  display: flex;
+/*  margin-top: 50px;*/
+}
+.sunny-result, .rainy-result {
+  font-size: 11px;
+  height: 35px;
+  width: 100%;
+  align-self: flex-start;
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+}
+
+.sunny-result:hover {
+  background-color: white;
+  color:#79B1E5;
+}

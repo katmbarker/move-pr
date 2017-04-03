@@ -3,7 +3,7 @@
 
 .contact-hero {
   height: 80vh;
-  background-image: url("images/biking.jpg");
+  background-color:#A8CBED;
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
@@ -35,12 +35,13 @@ h1.contact-hero-about {
   margin-bottom: 0px;
   color:black;
   margin-right: 20px;
+  padding-bottom: 5px;
 }
 
 .logo-studios {
   height: 50px;
   width: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-right: 20px;
 }
 
@@ -68,13 +69,15 @@ h1.about-content {
 }
 
 p.about-content {
-  color:black;
+  color:#81858E;
+  padding-bottom: 10px;
 }
 
 h1.contactform-section {
   color:#A8CBED;
   font-weight: bold;
   padding-left: 10px;
+  text-align: center;
 }
 
 p.contact-section-title {
