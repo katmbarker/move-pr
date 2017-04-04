@@ -34,18 +34,15 @@ p.p-hero {
 }
 
 #overlay{
-  width: 100%;
-/*  height: 100%;*/
+  z-index: 10;
+  max-width: 350px;
+/*  background-color: rgba(0, 0, 255, 0.2);*/
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
   position: absolute;
   top: 0;
-  left: 0;
-  background-color: transparent;
-  padding-left: 50px;
-  padding-top: 30px;
-}
-
-#overlay{
-  z-index: 10;
+  left:0;
 }
 
 img.dailyreport {
@@ -55,8 +52,8 @@ img.dailyreport {
 
 h1.overlay {
   color: white;
-  font-size: 20px;
-  margin:10px;
+  font-size: 18px;
+  margin:8px;
 }
 
 /*.hero-slider {

@@ -10,7 +10,7 @@ $(document).ready(function() {
         // console.log(parsed_json);
         var d = new Date();
         var e = formatDate(d);
-        var $overlay = $('#overlay');
+        var $overlay = $('.info');
         var $spinner = $('.spinner');
         $spinner.remove();
 
