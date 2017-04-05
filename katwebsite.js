@@ -52,6 +52,9 @@ $(document).ready(function() {
     $('#msg').removeClass('hidden');
   }); 
 
+  // $('.close').onClick(){
+  //   $('#msg').hide();
+  // }
 
 });
 
