@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $.ajax({
-    url : "http://api.wunderground.com/api/95f3ed1830df06dd/geolookup/conditions/q/PR/San_Juan.json",
+    url : "https://api.wunderground.com/api/95f3ed1830df06dd/geolookup/conditions/q/PR/San_Juan.json",
     dataType : "jsonp",
     success : function(parsed_json) {
         var location = parsed_json['location']['city'];
